@@ -1,3 +1,5 @@
+import CartWidget from "./CartWidget";
+
 const NavBar = ()=>{
   return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -15,8 +17,7 @@ const NavBar = ()=>{
                   </div>
               </div>
               <a className="justify-content-end">
-                  <i className="carrito-i bi bi-cart3"></i>
-                  <div className="cart-notify"><p>5</p></div>
+                  <CartWidget/>
               </a>
           </div>
       </nav>

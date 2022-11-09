@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './App.css'
 import NavBar from './components/NavBar';
-import Videos from './containers/Productos'
+import ItemListContainer from './components/ItemListContainer';
 
 const App = () => {
 
@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <Videos />
+      <ItemListContainer/>
     </>
   );
 };
