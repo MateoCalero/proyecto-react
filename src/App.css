@@ -1,0 +1,83 @@
+.macnifico{
+  font-size:xx-large;
+  margin-left: 10px;
+  margin-right: 25%;
+}
+
+.navbar-nav{
+  margin-left: 10px;
+  
+}
+.nav-link{
+  font-size:x-large;
+  margin-right: 30px;
+}
+
+.carrito-i{
+  font-size: 35px;
+  color: #fff;
+  margin-right: 15px;
+  position: relative;
+  
+}
+
+.cart-notify{
+position: absolute;
+height: 20px;
+width: 20px;
+text-align: center;
+top: 10px;
+right: 15px;
+border-radius: 10px;
+background-color: red;
+}
+
+.cart-notify p{
+  position: relative;
+  font-weight: 500;
+  top: -2px;
+  color: #fff;
+}
+
+.producto-container{
+  width: 30%;
+  background-color: rgba(179, 174, 174, 0.637);
+  border-radius: 25px;
+  margin: 20px;
+  text-align: center;
+   
+}
+
+
+.producto-image img{
+  width: 80%;
+  
+  padding: 10px;
+}
+
+.producto-title{
+  color: black;
+  font-weight: 600;
+  
+}
+
+.producto-price{
+  
+  font-weight: 500;
+}
+
+.producto-stock{
+  
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.btn-comprar{
+  width: 30%;
+  height: 40px;
+  background-color: rgb(11, 167, 11);
+  border-radius: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  margin-bottom: 10px;
+}
