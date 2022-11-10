@@ -4,10 +4,7 @@ import { useEffect, useState } from 'react';
 const Item = ({img, name, description, price, stock}) => {
   
 
-    // componentDidUpdate
-    useEffect(() => {
-      console.log('El Componente se actualizó')
-    }, [rate])
+  
 
     return (
       <div className="producto-container">

@@ -1,4 +1,4 @@
-import CartWidget from "./CartWidget";
+import CartWidget from "./CartWidget"
 
 const NavBar = ()=>{
   return(
@@ -17,7 +17,7 @@ const NavBar = ()=>{
                   </div>
               </div>
               <a className="justify-content-end">
-                  <CartWidget/>
+                  <CartWidget />
               </a>
           </div>
       </nav>
