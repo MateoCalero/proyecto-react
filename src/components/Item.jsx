@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+
 
 
 const Item = ({img, name, description, price, stock}) => {
