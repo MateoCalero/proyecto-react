@@ -39,8 +39,16 @@ background-color: red;
   color: #fff;
 }
 
+/* ESTILOS ItemListContiner */
+.itemContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
 .producto-container{
   width: 30%;
+  height: 40%;
+  display: inline-block;
   background-color: rgba(179, 174, 174, 0.637);
   border-radius: 25px;
   margin: 20px;
@@ -51,6 +59,7 @@ background-color: red;
 
 .producto-image img{
   width: 80%;
+  height: 325px;
   
   padding: 10px;
 }
@@ -61,25 +70,30 @@ background-color: red;
   
 }
 
+
+
 .producto-price{
   
   font-weight: 500;
 }
 
 .producto-stock{
-  
-  padding-bottom: 10px;
   font-weight: 500;
 }
 
+.producto-description{
+  margin-bottom: 7px;
+}
+
+.producto-description a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .btn-comprar{
-  width: 30%;
-  height: 40px;
-  background-color: rgb(11, 167, 11);
-  border-radius: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(17, 190, 17);
   border: none;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 /* ESTILOS ItemDetail */

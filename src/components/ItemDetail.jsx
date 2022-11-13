@@ -2,7 +2,7 @@ import ItemCount from "./ItemCount"
 
 const ItemDetail = ({item}) =>{
     const onAdd= (quantity) =>{
-        alert(`Has comprado ${quantity} unidades`)
+        alert(`¡Has agregado ${quantity} unidades al carrito!`)
     }
 
     return(
